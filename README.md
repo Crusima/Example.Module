@@ -39,6 +39,6 @@ Once you are ready to distribute your module minify the source code and make bot
 
 Currently the modules are stored in local storage in the client's browser meaning we have limited space available for all modules. This means all modules (including yours and others) add up to the space of the same local storage.
 
-To keep naming consistent across modules always name your minified modules `{Name.Of.Your.Module}.min.js`,
+To keep naming consistent across modules always name your minified modules `{Name.Of.Your.Module}.min.js`.
 
 [semver]: http://semver.org/
