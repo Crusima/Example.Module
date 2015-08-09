@@ -41,4 +41,8 @@ Currently the modules are stored in local storage in the client's browser meanin
 
 To keep naming consistent across modules always name your minified modules `{Name.Of.Your.Module}.min.js`.
 
+## Implementation help
+
+If you need help with an implementation feel free to open an issue right here on GitHub or shoot me an in-game mail and if I can I will help you with any questions.
+
 [semver]: http://semver.org/
