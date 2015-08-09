@@ -20,3 +20,23 @@ All modules should at least contain (at least) the following four methods:
     stop() // this should contain the code to cleanup once the plugin is removed or updated. An example of this is removing event listeners
     
 Modules should return themselves from the IIFE.
+
+### Versioning
+
+When developing modules always use [semantic versioning 2.0.0][semver]. This makes sure that people who use your module have some understanding what has changed and taht things may have been broken.
+
+### Namespacing
+
+When picking a namespace for your module pick a unqiue name. This is to prevent conflicts with other modules, not only from yourself, but also from other module developers.
+
+## Support
+
+Not mandatory, but a "nice thing to do ™" is to have a way for your users to contact you for support. Either in-game, on GitHub or some other way.
+
+## Distributing modules
+
+Once you are ready to distribute your module minify the source code and make both the original and the minified files available. The original source code is used to easily verifiy the functionality of the module and the minified version is used by people to install your module.
+
+Currently the modules are stored in local storage in the client's browser meaning we have limited space available for all modules. This means all modules (including yours and others) add up to the space of the same local storage.
+
+[semver]: http://semver.org/
