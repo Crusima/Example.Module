@@ -4,6 +4,8 @@ This is a reference module for 3rd party developers
 
 ## Developing a module
 
+A simple reference module is supplied [here][reference]. Which contains the bare minimum to create a module.
+
 ### Anatomy of a module
 
 All modules should be wrapped in a IIFE and the main plugin should be passed as the first argument:
@@ -45,4 +47,9 @@ To keep naming consistent across modules always name your minified modules `{Nam
 
 If you need help with an implementation feel free to open an issue right here on GitHub or shoot me an in-game mail and if I can I will help you with any questions.
 
+## List of awesome modules
+
+If my module framework actually starts gaining momentum and people start activily developing modules I am thinking about curating a list of awesome 3rd party modules. So if you have created a module and want to share it with the world feel free to open an issue or an in-game mail.
+
+[reference]: https://github.com/Crusima/Example.Module/blob/master/Example.js
 [semver]: http://semver.org/
